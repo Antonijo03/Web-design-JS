@@ -1,0 +1,64 @@
+
+header {
+    height: 15vh;
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #317773;
+    color: white;
+    text-align: center;
+}
+
+#tablica, #tablica2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+main {
+    text-align: center;
+}
+
+body{
+    background-color: #E2D1F9;
+}
+
+
+#unos {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+table, tr, td, th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+table {
+    font-size: 1.25vw;
+}
+
+td {
+    text-align: center;
+}
+
+thead{
+    background-color: #5e8b89;
+    color: white;
+}
+
+table{
+    width: 60%;
+}
+
+#space{
+    height: 10vw;
+}
+
+button, input{
+    background-color: #317773;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTA</title>
+    <link rel="stylesheet" href="JS_DOM.css">
+</head>
+
+<body>
+    <header>
+        <h1>WTA</h1>
+    </header>
+    <main>
+        <div id="space">
+            <br>
+        </div>
+        <div id="tablica">
+            <table>
+                <thead>
+                    <tr onmouseover="opacity(this)" onmouseout="opacity2(this)">
+                        <th>Mjesto</th>
+                        <th>Država</th>
+                        <th>Igračica</th>
+                        <th>Dob</th>
+                        <th>Bodovi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr onmouseover="opacity(this)" onmouseout="opacity2(this)">
+                    <td>1</td>
+                    <td>Australija</td>
+                    <td>Ashleigh Barty</td>
+                    <td>24</td>
+                    <td>7582</td>
+                </tr>
+                <tr onmouseover="opacity(this)" onmouseout="opacity2(this)">
+                    <td>2</td>
+                    <td>Bjelorusija</td>
+                    <td>Aryna Sabalenka</td>
+                    <td>23</td>
+                    <td>6380</td>
+                </tr>
+                <tr onmouseover="opacity(this)" onmouseout="opacity2(this)">
+                    <td>3</td>
+                    <td>Španjolska</td>
+                    <td>Garbine Muguruza</td>
+                    <td>28</td>
+                    <td>5685</td>
+                </tr>
+                <tr onmouseover="opacity(this)" onmouseout="opacity2(this)">
+                    <td>4</td>
+                    <td>Češka</td>
+                    <td>Karolina Pliskova</td>
+                    <td>29</td>
+                    <td>5135</td>
+                </tr>
+                <tr onmouseover="opacity(this)" onmouseout="opacity2(this)">
+                    <td>5</td>
+                    <td>Češka</td>
+                    <td>Barbora Krejcikova</td>
+                    <td>25</td>
+                    <td>5008</td>
+                </tr>
+                <tr onmouseover="opacity(this)" onmouseout="opacity2(this)">
+                    <td>6</td>
+                    <td>Grčka</td>
+                    <td>Maria Sakkari</td>
+                    <td>26</td>
+                    <td>4385</td>
+                </tr>
+                <tr onmouseover="opacity(this)" onmouseout="opacity2(this)">
+                    <td>7</td>
+                    <td>Estonija</td>
+                    <td>Anett Kontaveit</td>
+                    <td>25</td>
+                    <td>4351</td>
+                </tr>
+                <tr onmouseover="opacity(this)" onmouseout="opacity2(this)">
+                    <td>8</td>
+                    <td>Španjolska</td>
+                    <td>Paula Badosa</td>
+                    <td>24</td>
+                    <td>3849</td>
+                </tr>
+                <tr onmouseover="opacity(this)" onmouseout="opacity2(this)">
+                    <td>9</td>
+                    <td>Poljska</td>
+                    <td>Iga Swiatek</td>
+                    <td>20</td>
+                    <td>3786</td>
+                </tr>
+                <tr onmouseover="opacity(this)" onmouseout="opacity2(this)">
+                    <td>10</td>
+                    <td>Tunis</td>
+                    <td>Ons Jabeur</td>
+                    <td>27</td>
+                    <td>3455</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        <br>
+
+        <div id="unos">
+            <input type="search" id="mojInput" placeholder="Pretraži..">
+            <button onclick="pretrazi()">Pretraži</button>
+        </div>
+
+        <div id="tablica2"></div>
+    </main>
+
+
+    <script src="JS_DOM.js"></script>
+</body>
+
+</html>
